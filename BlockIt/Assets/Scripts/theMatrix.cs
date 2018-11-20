@@ -17,5 +17,9 @@ public class theMatrix : MonoBehaviour {
         return new Vector3(Mathf.Round(v.x), Mathf.Round(v.y), Mathf.Round(v.z));
     }
 
-
+    // determine if a coordinate is within the borders of the matrix
+    public static bool insideBorder(Vector3 pos)
+    {
+        
+    }
 }
