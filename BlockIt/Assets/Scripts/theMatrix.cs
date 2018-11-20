@@ -11,5 +11,11 @@ public class theMatrix : MonoBehaviour {
 
     public static Transform[,,] matrix = new Transform[width,height,depth];
 
+    // round vector components to whole numbers
+    public static Vector3 roundVec3(Vector3 v)
+    {
+        return new Vector3(Mathf.Round(v.x), Mathf.Round(v.y), Mathf.Round(v.z));
+    }
+
 
 }
