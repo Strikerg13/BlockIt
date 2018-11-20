@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 29105765}
   m_Layer: 0
   m_Name: Spawner
-  m_TagString: Untagged
+  m_TagString: tetradSpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,16 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tetrads:
-  - {fileID: 1548398823559726, guid: 7e0d9ffc224bc6e43858b27ef21b2469, type: 2}
-  - {fileID: 1363258032461072, guid: e053330cea5e56a428c7f5970ae3462a, type: 2}
-  - {fileID: 1679294954843316, guid: 62e71a8530d4f2741b98353e93b0c7aa, type: 2}
-  - {fileID: 1100481076292674, guid: 7cc11646adeb4e74a9c58a8a9993ce58, type: 2}
-  - {fileID: 1341162461183824, guid: 03c74238c40da314590ad99cab9d0f16, type: 2}
-  - {fileID: 1269706154972080, guid: 7018b6980b3306e43821feb37cf55875, type: 2}
-  - {fileID: 1995886016308592, guid: c32416581261f9740b0ec35e7bf14cf4, type: 2}
-  - {fileID: 1692060930743718, guid: e8dc0cd3f4df9ce49ba39d9d6d8f41f9, type: 2}
-  - {fileID: 1813913509598774, guid: 9d2d92721debb25478ddf1c08278938d, type: 2}
-  - {fileID: 1275116686699778, guid: 3d149ba25113ced419dc6af76aa1d718, type: 2}
+  - {fileID: 1165584547203646, guid: 473e98c0b4deb4d4fb76cc5a18723aa9, type: 2}
 --- !u!4 &29105766
 Transform:
   m_ObjectHideFlags: 0
@@ -247,7 +238,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4899690381231534, guid: b38383ef23d1a7347abd3f9fb573a9c2, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -2.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4899690381231534, guid: b38383ef23d1a7347abd3f9fb573a9c2, type: 2}
       propertyPath: m_LocalRotation.x
@@ -276,6 +267,10 @@ Prefab:
     - target: {fileID: 4899690381231534, guid: b38383ef23d1a7347abd3f9fb573a9c2, type: 2}
       propertyPath: m_LocalScale.z
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1588292524330528, guid: b38383ef23d1a7347abd3f9fb573a9c2, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b38383ef23d1a7347abd3f9fb573a9c2, type: 2}
@@ -350,13 +345,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.2200114, y: -0.10841835, z: 0.019625708, w: 0.9692551}
-  m_LocalPosition: {x: 9.8, y: 23.8, z: -35.6}
+  m_LocalRotation: {x: -0.13519697, y: 0.78446233, z: -0.17467563, w: -0.5795077}
+  m_LocalPosition: {x: 9.8, y: 11, z: 4.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 25.515001, y: -12.904, z: -0.61300004}
+  m_LocalEulerAnglesHint: {x: 25.515001, y: 252.76999, z: -0.61300004}
 --- !u!1 &1656633866
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +363,7 @@ GameObject:
   - component: {fileID: 1656633867}
   m_Layer: 0
   m_Name: The Matrix
-  m_TagString: Untagged
+  m_TagString: gameMatrix
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
